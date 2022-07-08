@@ -1,6 +1,7 @@
 .mode
 contest
-main
-main.cpp
+/main
+/main.cpp
+/a.out
 test
 input
