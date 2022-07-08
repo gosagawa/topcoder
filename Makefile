@@ -5,6 +5,10 @@ cpp:
 run:
 	./shell/run.sh
 
+runapplet:
+	javaws ContestAppletProd7.2.jnlp > /dev/null 2>&1 &
+
+
 # run with input
 runwi:
 	./shell/runwi.sh
