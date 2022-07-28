@@ -7,6 +7,6 @@ if test "$mode" = "go" ; then
 fi
 
 if test "$mode" = "cpp"; then
-  g++ -D=__LOCAL -o main main.cpp
+  g++ -D=__LOCAL -o main main.cpp -std=c++11
   ./main
 fi

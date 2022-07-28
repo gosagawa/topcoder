@@ -6,8 +6,7 @@ run:
 	./shell/run.sh
 
 runapplet:
-	javaws ContestAppletProd7.2.jnlp > /dev/null 2>&1 &
-
+	javaws shell/ContestAppletProd7.2.jnlp > /dev/null 2>&1 &
 
 # run with input
 runwi:
